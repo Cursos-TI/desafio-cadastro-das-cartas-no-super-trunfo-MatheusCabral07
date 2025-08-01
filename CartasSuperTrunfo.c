@@ -6,13 +6,13 @@ int main(){
 
     int pop, tur;
     float area, pib;
-    char estado, codigo[3], cidade[30];
+    char estado, codigo[4], cidade[60];
 
     //Variaveis Carta 2
 
     int pop2, tur2;
     float area2, pib2;
-    char estado2, codigo2[3], cidade2[30];
+    char estado2, codigo2[4], cidade2[60];
 
     //Receber os dados de cadastro da Carta 1
 
