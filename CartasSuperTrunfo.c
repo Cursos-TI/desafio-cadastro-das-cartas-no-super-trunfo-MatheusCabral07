@@ -6,13 +6,13 @@ int main(){
 
     int pop, tur;
     float area, pib;
-    char estado, codigo[4], cidade[60];
+    char estado, codigo[4], cidade[30];
 
     //Variaveis Carta 2
 
     int pop2, tur2;
     float area2, pib2;
-    char estado2, codigo2[4], cidade2[60];
+    char estado2, codigo2[4], cidade2[30];
 
     //Receber os dados de cadastro da Carta 1
 
@@ -23,9 +23,9 @@ int main(){
     printf("Digite uma letra de 'A' a 'H' que representará seu primeiro Estado: ");
     scanf(" %c", &estado);
     printf("Digite a letra de seu estado seguida de um numero de '01' a '04' para ser seu código de carta: ");
-    scanf("%s", &codigo);
+    scanf("%3s", &codigo);
     printf("Digite o nome da cidade: ");
-    scanf("%s", &cidade);
+    scanf("%29s", &cidade);
     printf("Digite a populacao da cidade: ");
     scanf("%d", &pop);
     printf("Digite a area da cidade em km2: ");
@@ -48,9 +48,9 @@ int main(){
     printf("Digite uma letra de 'A' a 'H' que representará seu primeiro Estado: ");
     scanf(" %c", &estado2);
     printf("Digite a letra de seu estado seguida de um numero de '01' a '04' para ser seu código de carta: ");
-    scanf("%s", &codigo2);
+    scanf("%3s", &codigo2);
     printf("Digite o nome da cidade: ");
-    scanf("%s", &cidade2);
+    scanf("%29s", &cidade2);
     printf("Digite a populacao da cidade: ");
     scanf("%d", &pop2);
     printf("Digite a area da cidade em km2: ");
